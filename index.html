@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Área de Círculo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        input, button {
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+        }
+        #resultado {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadora de Área de Círculo</h1>
+    
+    <label for="radio">Ingresa el radio del círculo:</label>
+    <input type="number" id="radio" placeholder="Ejemplo: 5">
+    
+    <button onclick="calcularArea()">Calcular Área</button>
+    
+    <div id="resultado"></div>
+
+    <script>
+        function calcularArea() {
+            // 1. Obtener el valor del input (radio)
+            const radio = parseFloat(document.getElementById("radio").value);
+            
+            // 2. Validar que sea un número positivo
+            if (isNaN(radio) || radio <= 0) {
+                document.getElementById("resultado").innerHTML = 
+                    "⚠️ Por favor, ingresa un número válido y mayor que cero.";
+                return;
+            }
+            
+            // 3. Calcular el área (usando tu función original)
+            const area = Math.PI * Math.pow(radio, 2);
+            
+            // 4. Mostrar el resultado (redondeado a 2 decimales)
+            document.getElementById("resultado").innerHTML = 
+                `El área del círculo con radio ${radio} es: <strong>${area.toFixed(2)}</strong>`;
+        }
+    </script>
+</body>
+</html>
