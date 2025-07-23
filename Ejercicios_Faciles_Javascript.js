@@ -61,7 +61,7 @@
 //   return suma / lista.length;
 // }
 
-// // Ejemplo de uso:
+// // Ejemplo de uso: 
 // const numeros = [10, 20, 30, 40, 50];
 // const promedio = calcularPromedio(numeros);
 // console.log("El promedio es:", promedio); // Output: El promedio es: 30

@@ -43,3 +43,22 @@
 // // Ejemplo de uso
 // const persona1 = new Persona("Ana", 25);
 // persona1.cumpleanos(); // Salida: Feliz cumpleaños Ana! Ahora tienes 26 años.
+
+// Realizar un programa en el cual se declaren dos valores enteros por teclado utilizando el método __init__. Calcular después la suma, resta, multiplicación y 
+// división. Utilizar un método para cada una e imprimir los resultados obtenidos. Llamar a la clase Calculadora.
+
+// class Calculadora {
+// 	contructor(numero_uno, numero_dos){
+// 		this.numero_uno = numero_uno
+// 		this.numero_dos = numero_dos
+// 	}
+	
+// 	suma() {
+// 		resultado = this.numero_uno + this.numero_dos
+// 		console.log(`Resultado de la Suma ${this.numero_uno} + ${this.numero_dos}: ${resultado}`)
+// 	}
+// }
+
+// // Ejemplo de Usp:
+
+// const operación = new Calculadora(3, 2)
