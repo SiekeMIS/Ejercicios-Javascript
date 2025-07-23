@@ -49,3 +49,27 @@
 //         console.log("La longitud de la cadena es:", cantidad_cadena);
 // }
 // longitud();
+
+
+// Calcula el promedio de una lista de números (7)
+// function calcularPromedio(lista) {
+//   if (lista.length === 0) {
+//     return 0; // Manejar el caso de una lista vacía para evitar errores
+//   }
+
+//   const suma = lista.reduce((acumulador, valor) => acumulador + valor, 0);
+//   return suma / lista.length;
+// }
+
+// // Ejemplo de uso:
+// const numeros = [10, 20, 30, 40, 50];
+// const promedio = calcularPromedio(numeros);
+// console.log("El promedio es:", promedio); // Output: El promedio es: 30
+
+// Crea una tupla con elementos e imprimirla (8)
+// function tupla() {
+//     const tupli = [10, "manmzana"]
+//     console.log("Respuesta", tupli[0])
+//     console.log("Respuesta", tupli[1])
+// }
+// tupla()
