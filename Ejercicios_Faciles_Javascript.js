@@ -73,3 +73,21 @@
 //     console.log("Respuesta", tupli[1])
 // }
 // tupla()
+
+// Realiza la potencia de un numero (9)
+// function potencia(base, exponente){
+// 	return Math.pow(base, exponente);
+// }
+// console.log("Resultado:", potencia(2, 3))
+
+// Invertir una cadena de texto (10)
+// function invertir_cadena(cadena) {
+// 	return cadena.split("").reverse().join("");
+// }
+// console.log("Resultado:", invertir_cadena("Hola"));
+
+// Calcula el área de un rectángulo pide base y altura al usuarios (11)
+// function calcular_area(base, altura) {
+// 	return base * altura;
+// }
+// console.log("Area", calcular_area(20, 10));
